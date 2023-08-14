@@ -10,14 +10,14 @@ publishing {
 
         register<MavenPublication>("release") {
             groupId = "com.githup.sbleja"
-            artifactId = "DroidCrypt"
+            artifactId = "JonkuCryptography"
             version = "0.0.1"
 
             afterEvaluate {
                 from(components["release"])
             }
         }
-
+    }
 }
 
 android {
